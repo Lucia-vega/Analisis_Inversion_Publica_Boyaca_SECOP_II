@@ -1,9 +1,8 @@
 
-# 📊 Análisis de la Inversión Pública en Boyacá (SECOP II)
+# 📊 Análisis de la Inversión Pública en Boyacá (SECOP II 2023-2026)
 
 ## 🎯 Objetivo
-
-Analizar la distribución de la inversión pública en Boyacá para identificar patrones de asignación, concentración del gasto y posibles ineficiencias en la contratación pública.
+Analizar la distribución de la inversión pública en Boyacá durante el periodo 2023–2026, con el fin de identificar patrones de asignación, concentración del gasto y posibles ineficiencias en la contratación pública.
 
 ---
 
