@@ -1,12 +1,12 @@
 
 # 📊 Análisis de la Inversión Pública en Boyacá (SECOP II 2023-2026)
 
-## 🎯 Objetivo
+##  Objetivo
 Analizar la distribución de la inversión pública en Boyacá durante el periodo 2023–2026, con el fin de identificar patrones de asignación, concentración del gasto y posibles ineficiencias en la contratación pública.
 
 ---
 
-## 🔍 Hallazgos clave
+##  Hallazgos clave
 
 * Tunja concentra la mayor inversión (~$7.7 billones), superando ampliamente otros municipios
 * La contratación se concentra en el último trimestre del año (estacionalidad marcada)
@@ -28,7 +28,7 @@ Este análisis permite:
 
 ---
 
-## 🛠️ Tecnologías
+##  Tecnologías
 
 * Python (Pandas, NumPy)
 * Matplotlib / Seaborn
@@ -37,7 +37,7 @@ Este análisis permite:
 
 ---
 
-## 📂 Estructura
+##  Estructura
 
 * Extracción de datos
 * Limpieza y transformación
@@ -47,7 +47,7 @@ Este análisis permite:
 
 ---
 
-## 🚀 Ver análisis completo
+## Ver análisis completo
 
 Puedes explorar el notebook completo en este repositorio.
 
