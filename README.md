@@ -17,7 +17,7 @@ Analizar la distribución de la inversión pública en Boyacá durante el period
 
 ---
 
-## 📈 Impacto
+## Impacto
 
 Este análisis permite:
 
