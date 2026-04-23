@@ -1,4 +1,4 @@
-# Analisis_Inversion_Publica_Boyaca_SECOP_II
+
 # 📊 Análisis de la Inversión Pública en Boyacá (SECOP II)
 
 ## 🎯 Objetivo
