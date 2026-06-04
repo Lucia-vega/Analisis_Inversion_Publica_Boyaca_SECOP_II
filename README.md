@@ -16,23 +16,35 @@ Analizar la distribución de la inversión pública en el departamento de Boyac�
 ## 🔍 Principales Hallazgos
 
 ### 1. Alta concentración geográfica de la inversión
-Tunja lidera la inversión departamental con aproximadamente **$7.7 billones de pesos**, superando casi 5 veces al segundo municipio (Sogamoso). Esto evidencia una fuerte centralización de los recursos en la capital, asociada a proyectos de gran escala y contratación institucional.
+Tunja lidera la inversión departamental con aproximadamente **$7.7 billones de pesos**, superando casi 5 veces al segundo municipio (Sogamoso). Esto evidencia una fuerte centralización de los recursos en la capital.
+
+![Tendencia histórica](01_tendencia_historica_inversion.png)
+
+---
 
 ### 2. Estacionalidad marcada en la ejecución del gasto
-Se identifica un patrón recurrente donde la mayor parte de la contratación se concentra en el **último trimestre del año** (especialmente octubre), lo cual sugiere acumulación de procesos hacia el cierre fiscal y riesgo de cuellos de botella administrativos.
+La mayor parte de la contratación se concentra en el **último trimestre del año** (especialmente octubre), lo cual sugiere acumulación de procesos hacia el cierre fiscal.
+
+![Volumen por año](04_volumen_por_anio.png)
+
+---
 
 ### 3. Aceleración atípica en 2026
-El primer trimestre de 2026 registra el **nivel más alto de ejecución temprana** en los últimos años: **$2.61 billones adjudicados en 112 días** (equivalente a $23,342 millones/día). Este comportamiento atípico está asociado a una ejecución masiva bajo modalidad de **Régimen Especial**.
+El primer trimestre de 2026 registra el nivel más alto de ejecución temprana: **$2.61 billones adjudicados en 112 días** (equivalente a $23,342 millones/día).
+
+![Top 5 entidades 2026](02_top5_entidades_2026.png)
+
+---
 
 ### 4. Predominio de contratación no competitiva
-La inversión de 2026 está liderada por:
-- Régimen Especial
-- Contratación Directa
+La inversión está liderada por **Régimen Especial** y **Contratación Directa**, lo cual requiere mayor seguimiento en términos de transparencia y control ciudadano.
 
-Esto requiere mayor seguimiento en términos de transparencia y control ciudadano.
+![Tipo de contrato](03_tipo_contrato.png)
+
+---
 
 ### 5. Priorización en salud y educación
-El gasto se concentra en la **red hospitalaria pública** (Hospital San Rafael de Tunja, Hospital Regional de Sogamoso y Duitama) y la **educación superior (UPTC)**, reflejando una priorización social del presupuesto departamental.
+El gasto se concentra en la **red hospitalaria pública** (Hospital San Rafael de Tunja, Hospital Regional de Sogamoso y Duitama) y la **educación superior (UPTC)**.
 
 ---
 
@@ -41,9 +53,12 @@ El gasto se concentra en la **red hospitalaria pública** (Hospital San Rafael d
 ```
 📁 Analisis_Inversion_Publica_Boyaca_SECOP_II
 │
-├── 📓 Analisis_Inversion_Publica_Boyaca_SECOP_II.ipynb   # Notebook principal
+├── 📓 Analisis_Inversion_Publica_Boyaca_SECOP_II.ipynb
 ├── 📄 README.md
-└── 📊 Contrataciones_2026_Boyaca.xlsx                    # Export de datos 2026
+├── 🖼️ 01_tendencia_historica_inversion.png
+├── 🖼️ 02_top5_entidades_2026.png
+├── 🖼️ 03_tipo_contrato.png
+└── 🖼️ 04_volumen_por_anio.png
 ```
 
 ---
@@ -55,7 +70,7 @@ API Socrata (SECOP II)
         ↓
 Extracción de +186,000 registros filtrados por Boyacá (2023–2026)
         ↓
-ETL: conversión de tipos · limpieza de texto con Regex · imputación de nulos · normalización de unidades
+ETL: conversión de tipos · limpieza con Regex · imputación de nulos · normalización de unidades
         ↓
 EDA: análisis temporal · concentración geográfica · distribución sectorial · detección de anomalías
         ↓
@@ -116,4 +131,3 @@ Analista de Datos | Ingeniería Industrial | Especialización en Analítica Estr
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luciavegadiaz-blue)](https://www.linkedin.com/in/luciavegadiaz)
 [![GitHub](https://img.shields.io/badge/GitHub-Lucia--vega-black)](https://github.com/Lucia-vega)
 [![Portafolio](https://img.shields.io/badge/Portafolio-Power%20BI-yellow)](https://bit.ly/Portafolio_Lucia_Vega)
-
